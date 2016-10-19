@@ -1,3 +1,5 @@
+
+//https://segmentfault.com/a/1190000005083578
 var oneTwo = List(1,2)
 var threeFour = List(3,4)
 
