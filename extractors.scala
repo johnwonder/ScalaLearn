@@ -16,7 +16,8 @@ object PreminumUser{
 
 val user:User = new PreminumUser("John")
 
-user match{
+
+def greetWithUser(newUser : User) = newUser match{
 	case FreeUser(name) => "Hello"+name
 	case PreminumUser(name) => "Welcome back,dear "+name
 
