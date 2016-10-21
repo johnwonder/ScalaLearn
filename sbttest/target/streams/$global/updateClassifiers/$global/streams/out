@@ -396,7 +396,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 163ms :: artifacts dl 10ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 437ms :: artifacts dl 31ms[0m
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT test produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-test.xml[0m
@@ -410,4 +410,4 @@
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#sbttest$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in F:\scala\sbttest\target\resolution-cache\reports\default-sbttest$sources_javadoc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (163ms resolve - 10ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (437ms resolve - 31ms download)[0m
