@@ -1,0 +1,137 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> F:\scala\runtest\target\scala-2.10\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+5 items
+F:\scala\runtest\object.scala -> F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator$$anonfun$calculate$1.class
+F:\scala\runtest\object.scala -> F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator$.class
+F:\scala\runtest\object.scala -> F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator.class
+F:\scala\runtest\object.scala -> F:\scala\runtest\target\scala-2.10\classes\HelloWorld$.class
+F:\scala\runtest\object.scala -> F:\scala\runtest\target\scala-2.10\classes\HelloWorld.class
+binary dependencies:
+2 items
+F:\scala\runtest\object.scala -> C:\Users\john\.sbt\boot\scala-2.10.6\lib\scala-library.jar
+F:\scala\runtest\object.scala -> E:\jdk8\jre\lib\rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+5 items
+F:\scala\runtest\object.scala -> ChecksumAccumulator
+F:\scala\runtest\object.scala -> ChecksumAccumulator$
+F:\scala\runtest\object.scala -> ChecksumAccumulator$$anonfun$calculate$1
+F:\scala\runtest\object.scala -> HelloWorld
+F:\scala\runtest\object.scala -> HelloWorld$
+used names:
+50 items
+F:\scala\runtest\object.scala -> &
+F:\scala\runtest\object.scala -> +
+F:\scala\runtest\object.scala -> +=
+F:\scala\runtest\object.scala -> ->
+F:\scala\runtest\object.scala -> <init>
+F:\scala\runtest\object.scala -> <repeated>
+F:\scala\runtest\object.scala -> A
+F:\scala\runtest\object.scala -> Any
+F:\scala\runtest\object.scala -> AnyRef
+F:\scala\runtest\object.scala -> Array
+F:\scala\runtest\object.scala -> ArrowAssoc
+F:\scala\runtest\object.scala -> B
+F:\scala\runtest\object.scala -> Boolean
+F:\scala\runtest\object.scala -> Byte
+F:\scala\runtest\object.scala -> Char
+F:\scala\runtest\object.scala -> ChecksumAccumulator
+F:\scala\runtest\object.scala -> Function1
+F:\scala\runtest\object.scala -> HelloWorld
+F:\scala\runtest\object.scala -> Int
+F:\scala\runtest\object.scala -> Map
+F:\scala\runtest\object.scala -> Nothing
+F:\scala\runtest\object.scala -> Object
+F:\scala\runtest\object.scala -> Predef
+F:\scala\runtest\object.scala -> String
+F:\scala\runtest\object.scala -> StringOps
+F:\scala\runtest\object.scala -> Tuple2
+F:\scala\runtest\object.scala -> U
+F:\scala\runtest\object.scala -> Unit
+F:\scala\runtest\object.scala -> acc
+F:\scala\runtest\object.scala -> add
+F:\scala\runtest\object.scala -> any2ArrowAssoc
+F:\scala\runtest\object.scala -> apply
+F:\scala\runtest\object.scala -> augmentString
+F:\scala\runtest\object.scala -> b
+F:\scala\runtest\object.scala -> c
+F:\scala\runtest\object.scala -> cache
+F:\scala\runtest\object.scala -> calculate
+F:\scala\runtest\object.scala -> checksum
+F:\scala\runtest\object.scala -> collection
+F:\scala\runtest\object.scala -> contains
+F:\scala\runtest\object.scala -> cs
+F:\scala\runtest\object.scala -> foreach
+F:\scala\runtest\object.scala -> mutable
+F:\scala\runtest\object.scala -> println
+F:\scala\runtest\object.scala -> s
+F:\scala\runtest\object.scala -> scala
+F:\scala\runtest\object.scala -> sum
+F:\scala\runtest\object.scala -> sum_=
+F:\scala\runtest\object.scala -> toByte
+F:\scala\runtest\object.scala -> unary_~
+product stamps:
+5 items
+F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator$$anonfun$calculate$1.class -> lastModified(1477116984514)
+F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator$.class -> lastModified(1477116984497)
+F:\scala\runtest\target\scala-2.10\classes\ChecksumAccumulator.class -> lastModified(1477116984476)
+F:\scala\runtest\target\scala-2.10\classes\HelloWorld$.class -> lastModified(1477116984525)
+F:\scala\runtest\target\scala-2.10\classes\HelloWorld.class -> lastModified(1477116984520)
+source stamps:
+1 items
+F:\scala\runtest\object.scala -> hash(7d853b73159449cf89e9aa5509eda7bb054a63bb)
+binary stamps:
+2 items
+C:\Users\john\.sbt\boot\scala-2.10.6\lib\scala-library.jar -> lastModified(1442568926000)
+E:\jdk8\jre\lib\rt.jar -> lastModified(1465311574056)
+class names:
+2 items
+C:\Users\john\.sbt\boot\scala-2.10.6\lib\scala-library.jar -> scala.Tuple2
+E:\jdk8\jre\lib\rt.jar -> java.lang.Object
+internal apis:
+1 items
+F:\scala\runtest\object.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwz4d9awAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAac3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwZa0IRXQABm5vdGlmeXNxAH4ADAonAXB0ABNDaGVja3N1bUFjY3VtdWxhdG9yc3EAfgAM2+i03nQABHdhaXRzcQB+AAxIB71KdAANJGFzSW5zdGFuY2VPZnNxAH4ADPwlEjF0AAZlcXVhbHNzcQB+AAzcNSiPdAAMYXNJbnN0YW5jZU9mc3EAfgAMrb/GqnQADHN5bmNocm9uaXplZHNxAH4ADL4mLQF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMoRu8YnQABG1haW5zcQB+AAw9aNyddAAJbm90aWZ5QWxsc3EAfgAMmqQ1jnQADGlzSW5zdGFuY2VPZnNxAH4ADO3MOFR0AAY8aW5pdD5zcQB+AAxqApu+dAAIY2hlY2tzdW1zcQB+AAwxjrRTdAAJY2FsY3VsYXRlc3EAfgAMXKO1fnQAAj09c3EAfgAMfKzzWHQABWNsb25lc3EAfgAMYZchzXQACHRvU3RyaW5nc3EAfgAMJtcqanQAAiE9c3EAfgAM50e2tnQACkhlbGxvV29ybGRzcQB+AAxkXdUWdAAIZ2V0Q2xhc3NzcQB+AAxLYcs8dAACbmVzcQB+AAyc4rsZdAADYWRkc3EAfgAMdD30SXQAAmVxc3EAfgAM7rfatHQAAiMjc3EAfgAMyvgFVXQACGZpbmFsaXplc3EAfgAMze3+tHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AS3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgARdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBnc3EAfgBidXEAfgBGAAAAAHNxAH4AYnVxAH4ARgAAAABzcQB+AGJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGZ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH90AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIBzcQB+AHN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
+external apis:
+0 items
+source infos:
+1 items
+F:\scala\runtest\object.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV+sIcQp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAKkY6XHNjYWxhXHJ1bnRlc3RcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=

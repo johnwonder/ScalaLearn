@@ -1,0 +1,224 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(F:\scala\tuples.scala, F:\scala\printargs.scala, F:\scala\sets.scala, F:\scala\object.scala, F:\scala\files.scala, F:\scala\extractors1.scala, F:\scala\greetStrings.scala, F:\scala\iterator.scala, F:\scala\functiontype.scala, F:\scala\extractors2.scala, F:\scala\extractors.scala, F:\scala\lists.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(F:\scala\tuples.scala, F:\scala\printargs.scala, F:\scala\sets.scala, F:\scala\object.scala, F:\scala\files.scala, F:\scala\extractors1.scala, F:\scala\greetStrings.scala, F:\scala\iterator.scala, F:\scala\functiontype.scala, F:\scala\extractors2.scala, F:\scala\extractors.scala, F:\scala\lists.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(F:\scala\tuples.scala, F:\scala\printargs.scala, F:\scala\sets.scala, F:\scala\object.scala, F:\scala\files.scala, F:\scala\extractors1.scala, F:\scala\greetStrings.scala, F:\scala\iterator.scala, F:\scala\functiontype.scala, F:\scala\extractors2.scala, F:\scala\extractors.scala, F:\scala\lists.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(F:\scala\tuples.scala, F:\scala\printargs.scala, F:\scala\sets.scala, F:\scala\object.scala, F:\scala\files.scala, F:\scala\extractors1.scala, F:\scala\greetStrings.scala, F:\scala\iterator.scala, F:\scala\functiontype.scala, F:\scala\extractors2.scala, F:\scala\extractors.scala, F:\scala\lists.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 12 sources: invalidated sources (12) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 12 Scala sources to F:\scala\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2589860f, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	E:\jdk8\jre\lib\resources.jar;E:\jdk8\jre\lib\rt.jar;E:\jdk8\jre\lib\sunrsasign.jar;E:\jdk8\jre\lib\jsse.jar;E:\jdk8\jre\lib\jce.jar;E:\jdk8\jre\lib\charsets.jar;E:\jdk8\jre\lib\jfr.jar;E:\jdk8\jre\classes;C:\Users\john\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	F:\scala\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mF:\scala\extractors.scala:17: expected class or object definition[0m
+[0m[[31merror[0m] [0mval user:User = new PreminumUser("John")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors.scala:20: expected class or object definition[0m
+[0m[[31merror[0m] [0mdef greetWithUser(newUser : User) = newUser match{[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors1.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0mdef greetWithFirstName(name: String) = name match{[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors1.scala:24: expected class or object definition[0m
+[0m[[31merror[0m] [0mdef greet(fullName:String) = fullName match {[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors1.scala:32: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(greet("john wonder"))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mdef scores: List[Int] = List(3,4,6,789)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:2: expected class or object definition[0m
+[0m[[31merror[0m] [0mval best :: rest =scores[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:4: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln("The score of our champion is "+ best)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:6: expected class or object definition[0m
+[0m[[31merror[0m] [0mdef gameResults(): Seq[(String,Int)] =[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0m	def hallOfFame = for {[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\extractors2.scala:15: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(hallOfFame);[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\files.scala:2: expected class or object definition[0m
+[0m[[31merror[0m] [0mif(args.length > 0){[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\functiontype.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mtype Set = Int => Boolean[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\functiontype.scala:3: expected class or object definition[0m
+[0m[[31merror[0m] [0mval isEven:Set = _% 2 == 0[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\functiontype.scala:5: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(isEven(4))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:5: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar greetStrings = new Array[String](3)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:6: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings(0) = "Hello"[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:7: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings(1) =","[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:8: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings(2) = "world!\n"[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0mfor(i <- 0 to 2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:10: expected class or object definition[0m
+[0m[[31merror[0m] [0m	print(greetStrings(i))[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:13: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar greetStrings1 = new Array[String](3)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:14: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings1.update(0,"Hello")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:15: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings1.update(1,",")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:16: expected class or object definition[0m
+[0m[[31merror[0m] [0mgreetStrings1.update(2,"world!\n")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:17: expected class or object definition[0m
+[0m[[31merror[0m] [0mfor(i <- 0 to 2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:18: expected class or object definition[0m
+[0m[[31merror[0m] [0m	print(greetStrings1.apply(i))[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:21: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar greetStrings2 = Array("Hello",",","World\n")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:22: expected class or object definition[0m
+[0m[[31merror[0m] [0mfor(i <- 0 to 2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:23: expected class or object definition[0m
+[0m[[31merror[0m] [0m	print(greetStrings2.apply(i))[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:25: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar greetStrings3 = Array.apply("Hello",",","World\n")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:26: expected class or object definition[0m
+[0m[[31merror[0m] [0mfor(i <- 0 to 2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\greetStrings.scala:27: expected class or object definition[0m
+[0m[[31merror[0m] [0m	print(greetStrings3.apply(i))[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mval it = Iterator("a","number","of","words")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:3: expected class or object definition[0m
+[0m[[31merror[0m] [0mval res1 = it.map(_.length)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:5: expected class or object definition[0m
+[0m[[31merror[0m] [0mres1 foreach println[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0mval (words,ns) = Iterator("a","number").duplicate[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:11: expected class or object definition[0m
+[0m[[31merror[0m] [0mval shorts = words.filter(_.length < 3).toList[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\iterator.scala:13: expected class or object definition[0m
+[0m[[31merror[0m] [0mshorts foreach println[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:3: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar oneTwo = List(1,2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:4: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar threeFour = List(3,4)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:6: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar oneTwoThreeFour = oneTwo ::: threeFour[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:7: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(oneTwo+" and " + threeFour +" were not mutated.")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:8: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln("Thus, "+ oneTwoThreeFour+" is a new list")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:10: expected class or object definition[0m
+[0m[[31merror[0m] [0mval oneTwoThree = 1::2::3::Nil[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:11: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(oneTwoThree)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:13: expected class or object definition[0m
+[0m[[31merror[0m] [0mval oneTwoThree1 = Nil.::(3).::(2).::(1)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:14: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(oneTwoThree1)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:17: expected class or object definition[0m
+[0m[[31merror[0m] [0mval oneTwoThree2 = Nil.::(3).::(2).::(1)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\lists.scala:18: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(oneTwoThree2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\object.scala:23: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(ChecksumAccumulator.calculate("We"))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar i =0[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:2: expected class or object definition[0m
+[0m[[31merror[0m] [0mwhile (i < args.length){[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:7: expected class or object definition[0m
+[0m[[31merror[0m] [0margs.foreach(arg => println(arg))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:9: expected class or object definition[0m
+[0m[[31merror[0m] [0margs.foreach(println)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:11: expected class or object definition[0m
+[0m[[31merror[0m] [0mfor(arg <- args)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\printargs.scala:12: expected class or object definition[0m
+[0m[[31merror[0m] [0m	println(arg)[0m
+[0m[[31merror[0m] [0m	^[0m
+[0m[[31merror[0m] [0mF:\scala\sets.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mvar jetSet = Set ("Boeing","Airbus")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\sets.scala:2: expected class or object definition[0m
+[0m[[31merror[0m] [0mjetSet +="Lear"[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\sets.scala:3: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(jetSet.contains("Cessna"))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\sets.scala:5: expected class or object definition[0m
+[0m[[31merror[0m] [0mval romanNumeral = Map (1-> "I",2 -> "II",[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\sets.scala:7: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(romanNumeral(4))[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\tuples.scala:1: expected class or object definition[0m
+[0m[[31merror[0m] [0mval pair = (99,"Luftballons")[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\tuples.scala:2: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(pair._1)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0mF:\scala\tuples.scala:3: expected class or object definition[0m
+[0m[[31merror[0m] [0mprintln(pair._2)[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m65 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

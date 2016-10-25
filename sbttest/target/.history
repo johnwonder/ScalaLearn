@@ -16,3 +16,18 @@ package
 :quit
 exit
 package
+:help
+help
+about
+run
+run extractors.scala
+:q
+exit
+package
+run
+run HelloWorld
+run com.john.demo.HelloWorld
+package
+run
+:q
+exit

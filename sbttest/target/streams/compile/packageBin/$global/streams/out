@@ -4,10 +4,10 @@
 [0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john[0m
 [0m[[0mdebug[0m] [0m	com[0m
 [0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com[0m
-[0m[[0mdebug[0m] [0m	com\john\scala\HelloWorld$.class[0m
-[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\scala\HelloWorld$.class[0m
-[0m[[0mdebug[0m] [0m	com\john\scala\HelloWorld.class[0m
-[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\scala\HelloWorld.class[0m
-[0m[[0mdebug[0m] [0m	com\john\scala[0m
-[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\scala[0m
+[0m[[0mdebug[0m] [0m	com\john\demo\HelloWorld.class[0m
+[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\demo\HelloWorld.class[0m
+[0m[[0mdebug[0m] [0m	com\john\demo\HelloWorld$.class[0m
+[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\demo\HelloWorld$.class[0m
+[0m[[0mdebug[0m] [0m	com\john\demo[0m
+[0m[[0mdebug[0m] [0m	  F:\scala\sbttest\target\scala-2.11\classes\com\john\demo[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

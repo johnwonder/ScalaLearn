@@ -1,0 +1,4 @@
+run extractors.scala
+sbt run object.scala
+run object.scala
+exit
